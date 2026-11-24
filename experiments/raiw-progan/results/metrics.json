@@ -1,0 +1,39 @@
+{
+  "dataset": "Wang2020 ProGAN test set",
+  "image_count": 160,
+  "real_count": 80,
+  "synthetic_count": 80,
+  "archive_sha256": "206c39e2b12395680c50cc631cfeecc6ca51db0cb1ac543b0a9558e4a11e7d8b",
+  "weights_sha256": "b3eb961cc68cf283b399bebf11cdf61b2bf41b98fabca0579f8b61d9141f695f",
+  "python": "3.12.16",
+  "platform": "macOS-27.2.1-arm64-arm-64bit",
+  "roc_auc": 0.99875,
+  "average_precision": 0.9987085478218541,
+  "sidbench_score_gt_0_5": {
+    "r_acc": 0.9875,
+    "f_acc": 0.9875,
+    "acc": 0.9875,
+    "tn": 79.0,
+    "fp": 1.0,
+    "fn": 1.0,
+    "tp": 79.0,
+    "ppv": 0.9875,
+    "npv": 0.9875,
+    "tpr": 0.9875,
+    "tnr": 0.9875
+  },
+  "raiw_native_decision": {
+    "r_acc": 0.9875,
+    "f_acc": 0.9875,
+    "acc": 0.9875,
+    "tn": 79.0,
+    "fp": 1.0,
+    "fn": 1.0,
+    "tp": 79.0,
+    "ppv": 0.9875,
+    "npv": 0.9875,
+    "tpr": 0.9875,
+    "tnr": 0.9875
+  },
+  "decision_disagreements": 0
+}
